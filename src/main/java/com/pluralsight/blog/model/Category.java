@@ -14,6 +14,8 @@ public class Category {
     private List<Post> posts;
     public Category() {
         super();
+        posts = new ArrayList<Post>();
+
     }
 
     public Long getId() {
